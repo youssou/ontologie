@@ -1,0 +1,828 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://webprotege.stanford.edu/project/9rP0UB3icignyBS2TuGFI7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://webprotege.stanford.edu/project/9rP0UB3icignyBS2TuGFI7">
+    <Prefix name="" IRI="http://webprotege.stanford.edu/project/9rP0UB3icignyBS2TuGFI7#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="webprotege" IRI="http://webprotege.stanford.edu/"/>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R7iKBBj0BZQUoRFh3VmfXJh"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9NeMCdkxbzSQotGd69DDr5"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9RnbTCUECVLUg1yFCYosFi"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9V1OqPSv0CeV0MFcPPiVzM"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9WYssgVNQAotZ5pmawSuOZ"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9Y0gi0wOMph7ALe5oC1v3l"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9a8yUEBDBeuwnOQGSNxpjN"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:RDufgT8z7llzdLnU2DjIp2X"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="webprotege:RoA4RMQ1uKPca4Bwrmv6xY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authentification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="webprotege:R82JNB9rKyevsoo0UCZ9Hcm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="webprotege:RDPOmCeFRR2PTu9sgutBP1e"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affecte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causePar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#autoRemplissage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#biometrie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cartePuce"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#certificat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#motDePasse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreEssai"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pwManager"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#questionSecret"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#session"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#token"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:R7y4O46zmIn3h5tkGq8bRRG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:R9HkPPvoafzadhVPYJtrPfn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:R9PWUf9TbCAlWESPzxfq6lZ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:R9PoC3aFpuHPLXsECmtiuY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:R9a7Uqd0Af6ls19NZN976DX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:R9xmzA74zBNTSHOvVHd8D53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:RBtWxrzu4v0lIcwEYM0P35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:RCMyUNgjkHCIeXqAOO7E3OU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:RDSPfhXDRZXS9qrCv8j8qf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:RDTrCaczpqr4XvfupuLBtd0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="webprotege:RDz2mJXmobaVEoEFPRzS9Rv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bruteForce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enrolement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enrolementFrauduleuse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gestionnaireDeMotDepasse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#imitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inaccessibilite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#login"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#m1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recuperation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#renouvellement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substitution"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R7iKBBj0BZQUoRFh3VmfXJh"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R7iKBBj0BZQUoRFh3VmfXJh"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="webprotege:RDPOmCeFRR2PTu9sgutBP1e"/>
+            <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9NeMCdkxbzSQotGd69DDr5"/>
+        <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9RnbTCUECVLUg1yFCYosFi"/>
+        <Class IRI="#Facteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9V1OqPSv0CeV0MFcPPiVzM"/>
+        <Class abbreviatedIRI="webprotege:R9Y0gi0wOMph7ALe5oC1v3l"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9WYssgVNQAotZ5pmawSuOZ"/>
+        <Class IRI="#Facteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9Y0gi0wOMph7ALe5oC1v3l"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9a8yUEBDBeuwnOQGSNxpjN"/>
+        <Class IRI="#Facteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+            <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="webprotege:RDPOmCeFRR2PTu9sgutBP1e"/>
+            <Class abbreviatedIRI="webprotege:R9Y0gi0wOMph7ALe5oC1v3l"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+            <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+            <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:RDufgT8z7llzdLnU2DjIp2X"/>
+        <Class abbreviatedIRI="webprotege:R9Y0gi0wOMph7ALe5oC1v3l"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="webprotege:RoA4RMQ1uKPca4Bwrmv6xY"/>
+        <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authentification"/>
+        <Class abbreviatedIRI="webprotege:R7iKBBj0BZQUoRFh3VmfXJh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identification"/>
+        <Class abbreviatedIRI="webprotege:R7iKBBj0BZQUoRFh3VmfXJh"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="webprotege:R9WYssgVNQAotZ5pmawSuOZ"/>
+        <Class abbreviatedIRI="webprotege:R9a8yUEBDBeuwnOQGSNxpjN"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R7y4O46zmIn3h5tkGq8bRRG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R9HkPPvoafzadhVPYJtrPfn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R9PWUf9TbCAlWESPzxfq6lZ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R9PoC3aFpuHPLXsECmtiuY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R9a7Uqd0Af6ls19NZN976DX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R9xmzA74zBNTSHOvVHd8D53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RBtWxrzu4v0lIcwEYM0P35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9a8yUEBDBeuwnOQGSNxpjN"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RCMyUNgjkHCIeXqAOO7E3OU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RDSPfhXDRZXS9qrCv8j8qf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RDTrCaczpqr4XvfupuLBtd0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RDz2mJXmobaVEoEFPRzS9Rv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+            <Class abbreviatedIRI="webprotege:RoA4RMQ1uKPca4Bwrmv6xY"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual abbreviatedIRI="webprotege:RDz2mJXmobaVEoEFPRzS9Rv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+        <NamedIndividual IRI="#bruteForce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+        <NamedIndividual IRI="#enrolement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9NeMCdkxbzSQotGd69DDr5"/>
+        <NamedIndividual IRI="#enrolementFrauduleuse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9RnbTCUECVLUg1yFCYosFi"/>
+        <NamedIndividual IRI="#gestionnaireDeMotDepasse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9NeMCdkxbzSQotGd69DDr5"/>
+        <NamedIndividual IRI="#imitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:RoA4RMQ1uKPca4Bwrmv6xY"/>
+        <NamedIndividual IRI="#inaccessibilite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+        <NamedIndividual IRI="#login"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contient"/>
+            <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#login"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contient"/>
+            <Class abbreviatedIRI="webprotege:R9a8yUEBDBeuwnOQGSNxpjN"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#login"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Authentification"/>
+        <NamedIndividual IRI="#m1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+        <NamedIndividual IRI="#recuperation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+        <NamedIndividual IRI="#renouvellement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="webprotege:R9NeMCdkxbzSQotGd69DDr5"/>
+        <NamedIndividual IRI="#substitution"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual abbreviatedIRI="webprotege:R9a7Uqd0Af6ls19NZN976DX"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R9xmzA74zBNTSHOvVHd8D53"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R7y4O46zmIn3h5tkGq8bRRG"/>
+        <NamedIndividual IRI="#bruteForce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RBtWxrzu4v0lIcwEYM0P35"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RCMyUNgjkHCIeXqAOO7E3OU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RBtWxrzu4v0lIcwEYM0P35"/>
+        <NamedIndividual IRI="#inaccessibilite"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affecte"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RCMyUNgjkHCIeXqAOO7E3OU"/>
+        <NamedIndividual IRI="#login"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+        <NamedIndividual IRI="#bruteForce"/>
+        <NamedIndividual abbreviatedIRI="webprotege:RCMyUNgjkHCIeXqAOO7E3OU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+        <NamedIndividual IRI="#bruteForce"/>
+        <NamedIndividual IRI="#imitation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affecte"/>
+        <NamedIndividual IRI="#gestionnaireDeMotDepasse"/>
+        <NamedIndividual IRI="#login"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affecte"/>
+        <NamedIndividual IRI="#gestionnaireDeMotDepasse"/>
+        <NamedIndividual IRI="#renouvellement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="webprotege:R82JNB9rKyevsoo0UCZ9Hcm"/>
+        <NamedIndividual IRI="#m1"/>
+        <NamedIndividual abbreviatedIRI="webprotege:R7y4O46zmIn3h5tkGq8bRRG"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autoRemplissage"/>
+        <NamedIndividual IRI="#inaccessibilite"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#questionSecret"/>
+        <NamedIndividual IRI="#inaccessibilite"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="webprotege:R82JNB9rKyevsoo0UCZ9Hcm"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="webprotege:RDPOmCeFRR2PTu9sgutBP1e"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affecte"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causePar"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="webprotege:R82JNB9rKyevsoo0UCZ9Hcm"/>
+        <Class abbreviatedIRI="webprotege:R7iKBBj0BZQUoRFh3VmfXJh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+        <Class abbreviatedIRI="webprotege:RDQlANuLlvySRqrnLN70LTl"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="webprotege:RDPOmCeFRR2PTu9sgutBP1e"/>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affecte"/>
+        <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causePar"/>
+        <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contient"/>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="webprotege:R82JNB9rKyevsoo0UCZ9Hcm"/>
+        <Class abbreviatedIRI="webprotege:R9pJKlZ9pvJ6oeCnyznLUOH"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="webprotege:RBROEtFV6lirJORCMPzGsUs"/>
+        <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="webprotege:RCWKGrqlNdxIgIcJUIKPocv"/>
+        <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="webprotege:RD1KHCml7XrFqQEYioW8arZ"/>
+        <Class abbreviatedIRI="webprotege:RCgpFFByAYeT4kwKpuUdWOe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="webprotege:RDPOmCeFRR2PTu9sgutBP1e"/>
+        <Class abbreviatedIRI="webprotege:R9Y0gi0wOMph7ALe5oC1v3l"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affecte"/>
+        <Class abbreviatedIRI="webprotege:R9A68lAfNwGAERDljw0jGVh"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causePar"/>
+        <Class IRI="#Facteur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contient"/>
+        <Class abbreviatedIRI="webprotege:R1LTcdz8Nsp0GopITp75Mh"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#biometrie"/>
+        <DataProperty IRI="#token"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cartePuce"/>
+        <DataProperty IRI="#token"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#certificat"/>
+        <DataProperty IRI="#token"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#motDePasse"/>
+        <DataProperty IRI="#token"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#pin"/>
+        <DataProperty IRI="#token"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#questionSecret"/>
+        <DataProperty IRI="#token"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#autoRemplissage"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#autoRemplissage"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreEssai"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#nombreEssai"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pwManager"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#pwManager"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#session"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#session"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#token"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#token"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R1LTcdz8Nsp0GopITp75Mh</AbbreviatedIRI>
+        <Literal xml:lang="fr">DefautLogique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R7iKBBj0BZQUoRFh3VmfXJh</AbbreviatedIRI>
+        <Literal xml:lang="fr">Mecanisme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:R7y4O46zmIn3h5tkGq8bRRG</AbbreviatedIRI>
+        <Literal>Le nombre d&apos;essai pour trouver un secret d&apos;authentification doit être proprement limité</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R7y4O46zmIn3h5tkGq8bRRG</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R82JNB9rKyevsoo0UCZ9Hcm</AbbreviatedIRI>
+        <Literal xml:lang="fr">applique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9A68lAfNwGAERDljw0jGVh</AbbreviatedIRI>
+        <Literal xml:lang="fr">Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:R9HkPPvoafzadhVPYJtrPfn</AbbreviatedIRI>
+        <Literal>L&apos;authenticité et l&apos;appartenance doit être vérifié avant toute association via une fédération d&apos;authentification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9HkPPvoafzadhVPYJtrPfn</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9NeMCdkxbzSQotGd69DDr5</AbbreviatedIRI>
+        <Literal xml:lang="fr">Usurpation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:R9PWUf9TbCAlWESPzxfq6lZ</AbbreviatedIRI>
+        <Literal>La validation d&apos;une authentification multi-facteur doit se faire en local (sur le canal de départ).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9PWUf9TbCAlWESPzxfq6lZ</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:R9PoC3aFpuHPLXsECmtiuY</AbbreviatedIRI>
+        <Literal>Les attributs d&apos;identité fournis doivent appartenir à l&apos;entité</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9PoC3aFpuHPLXsECmtiuY</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9RnbTCUECVLUg1yFCYosFi</AbbreviatedIRI>
+        <Literal xml:lang="fr">ComportementHumain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9V1OqPSv0CeV0MFcPPiVzM</AbbreviatedIRI>
+        <Literal xml:lang="fr">Authentifite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9WYssgVNQAotZ5pmawSuOZ</AbbreviatedIRI>
+        <Literal xml:lang="fr">Dispositif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9Y0gi0wOMph7ALe5oC1v3l</AbbreviatedIRI>
+        <Literal xml:lang="fr">Propriete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:R9a7Uqd0Af6ls19NZN976DX</AbbreviatedIRI>
+        <Literal>Le processus d&apos;authentification doit être explicite pour toutes les phases du parcours (limitation des durée de sesion, interdiction de formulaire auto-remplissable, authentification pour toutes les phases)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9a7Uqd0Af6ls19NZN976DX</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9a8yUEBDBeuwnOQGSNxpjN</AbbreviatedIRI>
+        <Literal xml:lang="fr">Conception</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9pJKlZ9pvJ6oeCnyznLUOH</AbbreviatedIRI>
+        <Literal xml:lang="fr">Exigence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:R9xmzA74zBNTSHOvVHd8D53</AbbreviatedIRI>
+        <Literal>L&apos;ensemble des moyens d&apos;authentification pour accéder à un service doivent avoir un niveau de sécurité équivalent, préconisé également par l&apos;exigence 5.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:R9xmzA74zBNTSHOvVHd8D53</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RBROEtFV6lirJORCMPzGsUs</AbbreviatedIRI>
+        <Literal xml:lang="fr">attenue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RBtWxrzu4v0lIcwEYM0P35</AbbreviatedIRI>
+        <Literal xml:lang="fr">deniDeService</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <AbbreviatedIRI>webprotege:RBtWxrzu4v0lIcwEYM0P35</AbbreviatedIRI>
+        <Literal>Une attaque par de deni de service empêche un utilisateur légitime d&apos;accéder à son compte via la phase de login</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RCMyUNgjkHCIeXqAOO7E3OU</AbbreviatedIRI>
+        <Literal xml:lang="fr">limitationImpropre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RCWKGrqlNdxIgIcJUIKPocv</AbbreviatedIRI>
+        <Literal xml:lang="fr">exploite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RCgpFFByAYeT4kwKpuUdWOe</AbbreviatedIRI>
+        <Literal xml:lang="fr">Risque</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RD1KHCml7XrFqQEYioW8arZ</AbbreviatedIRI>
+        <Literal xml:lang="fr">conduit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RDPOmCeFRR2PTu9sgutBP1e</AbbreviatedIRI>
+        <Literal xml:lang="fr">satisfait</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RDQlANuLlvySRqrnLN70LTl</AbbreviatedIRI>
+        <Literal xml:lang="fr">Attaque</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:RDSPfhXDRZXS9qrCv8j8qf</AbbreviatedIRI>
+        <Literal xml:lang="fr">Une identité doit être unique dans le contexte de l&apos;Application</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RDSPfhXDRZXS9qrCv8j8qf</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:RDTrCaczpqr4XvfupuLBtd0</AbbreviatedIRI>
+        <Literal xml:lang="fr">la vérification des attributs d&apos;identité doit s&apos;assurer de l&apos;existence, de la validité des attributs à l&apos;entité.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RDTrCaczpqr4XvfupuLBtd0</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RDufgT8z7llzdLnU2DjIp2X</AbbreviatedIRI>
+        <Literal xml:lang="fr">Identite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <AbbreviatedIRI>webprotege:RDz2mJXmobaVEoEFPRzS9Rv</AbbreviatedIRI>
+        <Literal>Les preuves de sécurité pour les phases nécessitant une authentification doivent être fourni dès la phase d&apos;enrôlement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RDz2mJXmobaVEoEFPRzS9Rv</AbbreviatedIRI>
+        <Literal xml:lang="fr">ex4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>webprotege:RoA4RMQ1uKPca4Bwrmv6xY</AbbreviatedIRI>
+        <Literal xml:lang="fr">Inaccessibilité</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
